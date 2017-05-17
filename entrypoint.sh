@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /opt/srs-2.0release/trunk
+cd /opt/srs-2.0-r1/trunk
 if [ "$#" -eq 0 ]
 then
     exec unbuffer ./objs/srs -c ./conf/docker.conf
